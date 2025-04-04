@@ -1,0 +1,85 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#features{
+  margin-top: 5;
+}
+/*
+.btn-1{
+ background-color: aliceblue;
+ border: none;
+ color: black;
+  
+}
+.btn-1:active, .btn-1:hover{
+  background: rgb(218, 216, 216);
+ border: none;
+ color: black;
+}
+.btn-2:active, .btn-2:hover{
+  background: aliceblue;
+ border: none;
+ color: black;
+}
+.btn-2{
+  color: aliceblue;
+  border-color: aliceblue;
+}*/
+#testimonial{
+ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+  padding: 5rem 3.5rem !important;
+}
+
+.testimonial-img{
+  height: 100px;
+  border-radius: 50%;
+}
+/*
+.testimonial-logos{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction:row;
+  gap: 5rem;
+ justify-content: center;
+align-items: center; 
+
+}
+.testimonial-logos img{
+  height: 30px;
+  
+}
+/*#pricing{
+  padding: 5rem 3.5rem !important;
+  align-items: center;
+  justify-content: center;
+}*/
